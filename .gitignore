@@ -1,0 +1,22 @@
+# --- FOUNDRY & SOLIDITY ---
+out/
+cache/
+lib/
+broadcast/
+foundry.lock
+
+# --- EXECUTABLES (VITAL) ---
+# Esto evita que se suba el archivo que copiaste para que funcione forge
+forge.exe
+forge
+
+# --- IDE & SYSTEM ---
+.vscode/
+.DS_Store
+Thumbs.db
+node_modules/
+.env
+
+# --- TESTING ---
+test-results/
+lcov.info
