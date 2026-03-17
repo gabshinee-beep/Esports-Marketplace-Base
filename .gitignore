@@ -1,22 +1,18 @@
-# --- FOUNDRY & SOLIDITY ---
+# Foundry
 out/
 cache/
-lib/
 broadcast/
-foundry.lock
 
-# --- EXECUTABLES (VITAL) ---
-# Esto evita que se suba el archivo que copiaste para que funcione forge
-forge.exe
-forge
+# Dependencies
+lib/
 
-# --- IDE & SYSTEM ---
+# IDEs
 .vscode/
+.idea/
+
+# OS
 .DS_Store
 Thumbs.db
-node_modules/
-.env
 
-# --- TESTING ---
-test-results/
-lcov.info
+# Env
+.env
